@@ -1,0 +1,16 @@
+project/
+│
+├── data/
+│   ├── raw/
+│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   ├── interim/
+│   │   └── churn_cleaned_step1.csv
+│   └── processed/
+│       └── churn_final.csv
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_preprocessing.ipynb
+│   ├── 04_modeling.ipynb
+│   └── 05_model_evaluation.ipynb
